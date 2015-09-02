@@ -244,14 +244,16 @@ incompatibility are:
 | Description | Link |
 | :----: | :----: |
 | Documents           | http://builder.rubyforge.org/ |
-| Github Clone        | git://github.com/jimweirich/builder.git |
-| Issue / Bug Reports | https://github.com/jimweirich/builder/issues?state=open |
+| Github Clone        | git://github.com/strelokhalfer/builder.git |
+| Clone Original      | git://github.com/jimweirich/builder.git |
+| Issue / Bug Reports | https://github.com/strelokhalfer/builder/issues?state=open |
 
 ## Contact
 
 | Description | Value                  |
 | :----:      | :----:                 |
 | Author      | Jim Weirich            |
-| Email       | jim.weirich@gmail.com  |
-| Home Page   | http://onestepback.org |
+| Adapt       | Strelokhalfer          |
+| Email       | strelokhalfer@gmail.com  |
+| Special for | http://rpg-maker.info and http://rpgmaker.su |
 | License     | MIT Licence (http://www.opensource.org/licenses/mit-license.html) |
