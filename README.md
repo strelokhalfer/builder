@@ -19,17 +19,11 @@ Builder::XmlEvents:: Generate XML events (i.e. SAX-like)
 ## Install  
   
 Place the contents of "Batch/batch.rb" into Scripts.
-Or use "Side script loader" https://github.com/godsent/rpg-maker-side-script-loader and 
-```ruby 
-require 'builder'
-```
+Or use "Side script loader" https://github.com/godsent/rpg-maker-side-script-loader 
   
 ## Usage
 
 ```ruby
-  require 'rubygems'
-  require_gem 'builder', '~> 2.0'
-
   builder = Builder::XmlMarkup.new
   xml = builder.person { |b| b.name("Jim"); b.phone("555-1234") }
   xml #=> <person><name>Jim</name><phone>555-1234</phone></person>
@@ -38,9 +32,6 @@ require 'builder'
 or
 
 ```ruby
-  require 'rubygems'
-  require_gem 'builder'
-
   builder = Builder::XmlMarkup.new(:target=>STDOUT, :indent=>2)
   builder.person { |b| b.name("Jim"); b.phone("555-1234") }
   #
