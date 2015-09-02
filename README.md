@@ -1,4 +1,4 @@
-# Project: Builder
+# Builder for RGSS
 
 ## Goal
 
@@ -16,6 +16,11 @@ Builder::XmlEvents:: Generate XML events (i.e. SAX-like)
   Also, the events builder is currently lagging the markup builder in
   features.
 
+## Install  
+  
+Place the contents of "Batch/batch.rb" into Scripts.
+Or use "Side script loader" https://github.com/godsent/rpg-maker-side-script-loader and ```ruby require 'builder'```
+  
 ## Usage
 
 ```ruby

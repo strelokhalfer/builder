@@ -115,10 +115,10 @@ if String.method_defined?(:encode)
           end
         }.join +
       ']')
-  
-      ENCODING_BINARY = Encoding.find('BINARY')
+	  # In RGSS this encodings missed.
+      ENCODING_BINARY = nil
       ENCODING_UTF8   = Encoding.find('UTF-8')
-      ENCODING_ISO1   = Encoding.find('ISO-8859-1')
+      ENCODING_ISO1   = nil
 
       # convert a string to valid UTF-8, compensating for a number of
       # common errors.
