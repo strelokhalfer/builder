@@ -19,7 +19,10 @@ Builder::XmlEvents:: Generate XML events (i.e. SAX-like)
 ## Install  
   
 Place the contents of "Batch/batch.rb" into Scripts.
-Or use "Side script loader" https://github.com/godsent/rpg-maker-side-script-loader and ```ruby require 'builder'```
+Or use "Side script loader" https://github.com/godsent/rpg-maker-side-script-loader and 
+```ruby 
+require 'builder'
+```
   
 ## Usage
 
